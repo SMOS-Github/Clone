@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Amazone Clone</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<header>
+
+	<div class="navbar">
+		<div class="navlogo atvisit">
+			<div class="logo">
+			<img src="amzn.png" height="40" width="110" id="amzLogo">
+			</div>
+		</div>
+
+		<div class="delivery atvisit">
+			<div class="deliveryText smallText">
+				<p>Deliver to</p>
+			</div>
+			<div class="location">
+				<div class="locationLogo">
+					<i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+					<p id="bText">India</p>
+				</div>
+			</div>	
+		</div>
+
+		<div class="searchBox">
+
+		<div class="searchBar">
+			<div class="selector click">
+				<select class="selc">
+					<option class="allText">All</option>
+				</select>
+			</div>
+			<div class="inputField">
+				<input placeholder="Search Amazon" id="searchE">
+			</div>
+			<div class="button click">
+				<button id="btn">
+					<i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+				</button>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="myContainer">
+		
+		<div class="language atvisit">
+			<div class="flag">
+				<i class="fa-regular fa-flag" style="color: #00bfff;"></i>
+			</div>
+			<div class="langText">
+				<p id="bText">EN<sub> ▾</sub></p>
+			</div>
+		</div>
+
+		<div class="signIn atvisit ">
+			<div class="signText smallText">
+				<p>Hello, sign in</p>
+			</div>
+			<div class="acc">
+				<p id="bText">Account & List <sub> ▾</sub></p>
+			</div>
+		</div>
+
+		<div class="return atvisit ">
+			<div class="returntext smallText">
+				<p>Return</p>
+			</div>
+			<div class="ret">
+				<p id="bText">& Orders</p>
+			</div>
+		</div>
+
+		<div class="cartLogo atvisit">
+			<div class="logoC">
+				<i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+			</div>
+			<div class="cText">
+				<p id="bText">Cart</p>
+			</div>
+		</div>
+
+		</div>
+	</div>
+
+	<div class="mininav">
+
+		<div class="miniNavLogo">
+			<i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+			<p id="miniAll" >All</p>
+		</div>
+
+		<div class="miniNavTitles">
+			<p id="bText">Today's Deals</p>
+		</div>
+
+		<div class="miniNavTitles">
+			<p id="bText">Customer Service</p>
+		</div>
+
+		<div class="miniNavTitles">
+			<p id="bText">Registry</p>
+		</div>
+
+		<div class="miniNavTitles">
+			<p id="bText">Gift Cards</p>
+		</div>
+
+		<div class="miniNavTitles">
+			<p id="bText">Sell</p>
+		</div>
+
+	</div>
+
+	</header>
+
+	<main>
+		<div class="backgroundImg">
+			<div class="left">
+				<i class="fa-solid fa-chevron-left" style="color: #000000;"></i>
+			</div>
+			<div class="right">
+				<i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+			</div>
+			<div class="note">
+				<p id="bText2">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="www.amazon.in" target="main">Click here to go to amazon.in</a></p>
+			</div>
+		</div>
+
+		
+		<div class="categorys">
+			<!--For Four Box-->
+			<div class="subItems">
+				<div class="UpTitle">
+					<p id="bText">Gaming accessories</p>
+				</div>
+
+				<div class="itemBox">
+					<div class="myItems"></div>
+					<div class="myItems"></div>
+				</div>
+				<div class="myItemsNames">
+					<div class="itemNames">
+						<p id="firstN">Wired Headphone</p>
+					</div>
+					<div class="itemNames">
+						<p id="firstN">Gaming keyboard</p>
+					</div>
+				</div>
+				<div class="itemBox">
+					<div class="myItems"></div>
+					<div class="myItems"></div>
+				</div>
+				<div class="myItemsNames">
+					<div class="itemNames">
+						<p id="secondN">Wired Headphone</p>
+					</div>
+					<div class="itemNames">
+						<p id="secondN">Gaming keyboard</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="subItems">
+				<div class="UpTitle">
+					<p id="bText">Gaming accessories</p>
+				</div>
+
+				<div class="itemBox">
+					<div class="myItems"></div>
+					<div class="myItems"></div>
+				</div>
+				<div class="myItemsNames">
+					<div class="itemNames">
+						<p id="firstN">Wired Headphone</p>
+					</div>
+					<div class="itemNames">
+						<p id="firstN">Gaming keyboard</p>
+					</div>
+				</div>
+				<div class="itemBox">
+					<div class="myItems"></div>
+					<div class="myItems"></div>
+				</div>
+				<div class="myItemsNames">
+					<div class="itemNames">
+						<p id="secondN">Wired Headphone</p>
+					</div>
+					<div class="itemNames">
+						<p id="secondN">Gaming keyboard</p>
+					</div>
+				</div>
+			</div>
+
+			<!--For singel Item-->
+			<div class="subItems 1item">
+				<div class="UpTitle">
+					<p id="bText">Gaming accessories</p>
+				</div>
+
+				<div class="bigItemBox">
+				</div>
+				<div class="bigItem">
+					<p id="bText2">This is a name box</p>
+				</div>
+			</div>
+
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<!--For wider range Item-->
+			<div class="subItems longI">
+				<div class="wideTitle">
+					<p id="bText">Gaming accessories</p>
+				</div>
+				<div class="wideBox">
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+					<div class="wideItems"></div>
+				</div>
+			</div>
+			<div class="subItems longI"></div>
+			<!--For singel Item-->
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems longI"></div>
+			<div class="subItems longI"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems"></div>
+			<div class="subItems longI"></div>
+			<div class="subItems longI"></div>
+		</div>
+	</main>
+	<footer>
+		<div class="footerSec">
+			<div class="innerBox">
+				<div class="innerContainer">
+					<div class="boxes1">
+						<p>See personalized recommendations</p>
+					</div>
+					<div class="boxes">
+						<p>Sign in</p>
+					</div>
+					<div class="boxes1">
+						<p>New customer? Start here.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+		<div class="backToTop"></div>
+
+	</footer>
+</body>
+</html>
