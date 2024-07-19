@@ -313,7 +313,6 @@ p{
 	justify-content:center;
 	align-items:center;
 	background-color:pink;
-	border:2px solid black;
 	height:250px;
 }
 .innerBox{
@@ -347,16 +346,86 @@ p{
 .boxes{
 	background-color:blue;
 	border:2px dotted black;
-	height:50px;
-	width:95%;
+	height:40px;
+	width:65%;
+	border-radius:7px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 .backToTop{
-	background-color:cyan;
-	height:200px;
+	background-color:gray;
+	height:80px;
 	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.backBottom1{
+	background-color:red;
+	height:600px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.bb1{
+	height:450px;
+	width:300px;
+	background-color:yellow;
+	border:2px solid black;
+	margin-left:60px;
+	margin-right:60px;
+}
+.backBottom2{
+	background-color:blue;
+	height:150px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.bb2{
+	background-color:gray;
+	border:2px solid black;
+	height:40px;
+	width:150px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.backBottom3{
+	background-color:green;
+	height:750px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bb3{
+	background-color:yellow;
+	height:120px;
+	width:230px;
+	border:2px solid black;
+	margin-left:5px;
+	margin-right:5px;
+}
+.backBottom4{
+	background-color:blue;
+	height:100px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.bb4{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
 }
 .atvisit:hover{
 	border-radius:2px;
