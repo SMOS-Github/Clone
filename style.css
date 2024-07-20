@@ -7,41 +7,59 @@ a{
 	text-decoration:none;
 }
 .smallText{
-	font-family:Arial;
-	color:#E8E8E8;
+	font-family:Amazon Ember;
+	color:#cccccc;
+	font-size:14px;
 }
 #bText{
-	font-family:Brandon Grotesque;
+	font-family:Amazon Ember;
+	font-size:16px;
 	font-weight:bold;
 }
+
 .navbar{
-	height:62px;
+	height:60px;
 	width:100%;
 	background-color:#202525;
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
-	flex-wrap:nowarp;
+	border:border-box;
 }
-#amzLogo{
-	margin-left:5px;
+
+.logo{
+	height:30px;
+	padding-bottom:10px;
 }
 .navlogo{
-	margin:7px 10px 7px 0px;
-	padding:7px 10px 7px 0px;
+	height:50px;
+	width:120px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:border-box;
+	margin:5px;
+
 }
+
 .deliveryText{
 	margin-left:12px;
 }
 
 .delivery{
-	margin:9px 6px 9px 6px;
-	padding:9px 6px 9px 6px;
+	height:50px;
+	width:100px;
+	border:border-box;
+	padding-left:5px;
+	padding-right:5px;
+
 }
 
 .locationLogo{
 	display:flex;
 	align-items:center;
+	flex-wrap:nowrap;
+
 }
 .selc{
 	height:40px;
@@ -50,6 +68,7 @@ a{
 	background-color:#E8E8E8;
 	border-top-left-radius:5px;
 	border-bottom-left-radius:5px;
+
 }
 #btn{
 	height:40px;
@@ -62,13 +81,23 @@ a{
 .allText{
 	text-align:center;
 }
+#mText{
+	font-family:Amazon Ember;
+	font-size:14px;
+}
 .searchBar{
 	display:flex;
+	border:border-box;
 }
 #searchE{
 	height:40px;
 	width:900px;
 	border:none;
+	border:border-box;
+	font-family:Amazon Ember;
+	font-size:16px;
+	align-text:center;
+	padding-left:10px;
 }
 
 .myContainer{
@@ -86,33 +115,37 @@ a{
 
 .cartLogo{
 	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 
 .language{
 	display:flex;
-
-	margin:16px 8px 15px 7px;
-	padding:15px 8px 18px 7px;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:nowrap;
+	height:50px;
+	border:border-box;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .signIn{
-	
-	margin:9px 6px 8px 3px;
-	padding:9px 6px 4px 3px;
+	height:50px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .return{
-	
-	margin:9px 8px 9px 3px;
-	padding:9px 8px 9px 3px;
+	height:50px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
-.cartLogo{
-	
-	margin:19px 8px 19px 7px;
-	padding:19px 8px 19px 7px;
-}
 p{
 	color:white;
 	margin-left:5px;
@@ -132,20 +165,23 @@ p{
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
-	padding:8px;
-	margin:3px 0px 4px 8px;
-	padding:6px 9px 6px 6px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 
 .miniNavTitles{
-	margin:3px 0px 4px 0px;
-	padding:6px 9px 6px 9px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left:5px;
+	margin-right:5px;
 }
 #miniAll{
-	padding-bottom:5px;
 	padding-left:5px;
-	font-family:cera pro;
+	font-family:Amazon Ember;
+	font-weight:bold;
 }
 
 .backgroundImg{
