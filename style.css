@@ -236,16 +236,15 @@ p{
 	
 }
 .bigItem{
-	background-color:red;
 	height:6%;
 	width:90%;
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
-	margin-bottom:20px;
+
 }
 .categorys{
-	background-color:green;
+	background-color:#cccccc;
 	display:flex;
 	position:relative;
 	top:-30px;
@@ -256,17 +255,15 @@ p{
 }
 
 .subItems{
-	background-color:blue;
-	height:450px;
+	background-color:white;
+	height:470px;
 	width:380px;
 	display:flex;
 	flex-wrap:wrap;
-	border:2px solid black;
-	
 	margin:0px 0px 20px 20px;
 	justify-content:space-evenly;
+	border:1px solid black;
 	align-items:center;
-
 	position:relative;
 	left:25px;
 }
@@ -275,10 +272,15 @@ p{
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
-	height:40px;
+	height:30px;
 	width:90%;
-	background-color:black;
 	margin-top:5px;
+}
+#titleTag{
+	font-family:Amazon Ember;
+	font-size:23px;
+	font-weight:bold;
+	color:black
 }
 .itemBox{
 	display:flex;
@@ -287,15 +289,18 @@ p{
 	height:35%;
 	width:90%;
 	background-color:orange;	
-	margin-bottom:20px;
+	margin-bottom:25px;
+
 }
 .myItems{
-	height:120px;
-	width:140px;
+	height:140px;
+	width:160px;
 	margin-left:0px;
 	background-color:red;
 	border:2px solid black;
+
 }
+
 .myItemsNames{
 	display:flex;
 	justify-content:space-evenly;
@@ -304,14 +309,29 @@ p{
 	width:90%;
 	background-color:black;
 	position:relative;
-	bottom:20px;
+	bottom:30px;
 }
-
+.seeMore{
+	position:relative;
+	bottom:20px;
+	right:140px;
+}
+#seeM{
+	font-family:Amazon Ember;
+	font-size:16px;
+	padding-left:5px;
+	align-text:center;
+	color:#007185;
+}
 #firstN{
-	margin-right:20px;
+	font-family:Amazon Ember;
+	font-size:14px;
+	margin-right:40px;
 }
 #secondN{
-	margin-right:20px;
+	font-family:Amazon Ember;
+	font-size:14px;
+	margin-right:40px;
 }
 
 .longI{
@@ -324,7 +344,6 @@ p{
 	align-items:center;
 	height:40px;
 	width:98%;
-	background-color:black;
 	margin-top:10px;
 }
 .wideBox{
