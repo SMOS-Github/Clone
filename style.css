@@ -5,6 +5,7 @@
 }
 a{
 	text-decoration:none;
+	color:#007185;
 }
 .smallText{
 	font-family:Amazon Ember;
@@ -241,6 +242,7 @@ p{
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
+	margin-bottom:15px;
 
 }
 .categorys{
@@ -262,10 +264,10 @@ p{
 	flex-wrap:wrap;
 	margin:0px 0px 20px 20px;
 	justify-content:space-evenly;
-	border:1px solid black;
 	align-items:center;
 	position:relative;
 	left:25px;
+	top:10px;
 }
 
 .UpTitle{
@@ -288,28 +290,30 @@ p{
 	align-items:center;
 	height:35%;
 	width:90%;
-	background-color:orange;	
-	margin-bottom:25px;
+	margin-bottom:5px;
 
 }
 .myItems{
 	height:140px;
 	width:160px;
 	margin-left:0px;
-	background-color:red;
-	border:2px solid black;
-
 }
 
 .myItemsNames{
 	display:flex;
-	justify-content:space-evenly;
+	justify-content:space-between;
 	align-items:center;
 	height:25px;
 	width:90%;
-	background-color:black;
 	position:relative;
-	bottom:30px;
+	bottom:22px;
+
+}
+.itemNames{
+	height:25px;
+	width:170px;;
+	padding-top:5px;
+	padding-left:5px;
 }
 .seeMore{
 	position:relative;
@@ -327,11 +331,13 @@ p{
 	font-family:Amazon Ember;
 	font-size:14px;
 	margin-right:40px;
+	color:black;
 }
 #secondN{
 	font-family:Amazon Ember;
 	font-size:14px;
 	margin-right:40px;
+	color:black;
 }
 
 .longI{
@@ -349,18 +355,15 @@ p{
 .wideBox{
 	height:80%;
 	width:98%;
-	background-color:gray;
 	margin-bottom:15px;
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
 }
 .wideItems{
-	background-color:cyan;
 	height:85%;
 	width:35%;
 	margin:0px 8px 0px 8px;
-	border:2px solid black;
 }
 
 .footerSec{
@@ -369,6 +372,8 @@ p{
 	align-items:center;
 	background-color:pink;
 	height:250px;
+	position:relative;
+	top:25px;
 }
 .innerBox{
 	
