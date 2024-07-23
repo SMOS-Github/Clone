@@ -460,13 +460,29 @@ p{
 .bb2{
 	border:2px solid #cccccc;
 	border-radius:5px;
-	height:45px;
+	height:40px;
 	width:155px;
 	margin-left:20px;
 	margin-right:20px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
+}
+.country{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-right:10px;
+}
+.state{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-bottom:8px;
+}
+.currency{
+	padding-bottom:8px;
+
 }
 .bb21{
 	height:45px;
@@ -521,10 +537,8 @@ p{
 	font-weight:bold;
 }
 .bb3{
-	background-color:yellow;
 	height:120px;
 	width:230px;
-	border:2px solid black;
 	margin-left:5px;
 	margin-right:5px;
 }
