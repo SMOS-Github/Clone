@@ -521,7 +521,7 @@ p{
 }
 .backBottom3{
 	background-color:rgb(19,26,34);
-	height:750px;
+	height:500px;
 	width:100%;
 	display:flex;
 	justify-content:center;
@@ -536,11 +536,16 @@ p{
 	font-size:20px;
 	font-weight:bold;
 }
+#bts{
+	color:#cccccc;
+	font-family:Amazon Ember;
+	font-size:14px;
+}
 .bb3{
-	height:120px;
-	width:230px;
-	margin-left:5px;
-	margin-right:5px;
+	height:100px;
+	width:170px;
+	margin-left:25px;
+	margin-right:25px;
 }
 .backBottom4{
 	background-color:rgb(19,26,34);
@@ -549,6 +554,31 @@ p{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+}
+.abt{
+	height:20px;
+	width:150px;
+
+}
+.abtt{
+	height:20px;
+	width:125px;
+
+}
+.abttt{
+	height:20px;
+	width:320px;
+
+}
+.abtttt{
+	height:20px;
+	width:190px;
+
+}
+.abttttt{
+	height:20px;
+	width:35%;
+
 }
 .bb4{
 	display:flex;
