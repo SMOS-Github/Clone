@@ -231,7 +231,6 @@ p{
 }
 
 .bigItemBox{
-	background-color:pink;
 	height:78%;
 	width:90%;
 	
@@ -270,6 +269,13 @@ p{
 	top:10px;
 }
 
+
+#titleTag{
+	font-family:Amazon Ember;
+	font-size:23px;
+	font-weight:bold;
+	color:black
+}
 .UpTitle{
 	display:flex;
 	justify-content:flex-start;
@@ -277,12 +283,6 @@ p{
 	height:30px;
 	width:90%;
 	margin-top:5px;
-}
-#titleTag{
-	font-family:Amazon Ember;
-	font-size:23px;
-	font-weight:bold;
-	color:black
 }
 .itemBox{
 	display:flex;
@@ -420,12 +420,16 @@ p{
 }
 .backToTop{
 	background-color:rgb(55,71,90);
-	height:80px;
+	height:50px;
 	width:100%;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 }
+.backToTop:hover{
+	background-color:rgba(55,71,90,0.9);
+}
+
 .backBottom1{
 	background-color:rgb(35,47,62);
 	height:450px;
@@ -446,7 +450,20 @@ p{
 	color:#cccccc;
 	padding-top:8px;
 }
-
+#bTT{
+	font-family:Amazon Ember;
+	font-size:16px;
+	color:#cccccc;
+	padding-top:8px;
+}
+#bT:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+#bts:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
 .backBottom2{
 	background-color:rgb(35,47,62);
 	height:150px;
