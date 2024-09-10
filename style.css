@@ -3,6 +3,7 @@
 	padding:0px;
 	border:border-box;	
 }
+
 a{
 	text-decoration:none;
 	color:#007185;
@@ -23,11 +24,17 @@ a{
 	width:100%;
 	background-color:rgb(19,25,33);
 	display:flex;
-	justify-content:space-evenly;
+	flex-wrap:wrap;
+	justify-content:space-between;
 	align-items:center;
 	border:border-box;
+	padding:0 10px;
 }
-
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
 .logo{
 	height:30px;
 	padding-bottom:10px;
@@ -92,7 +99,7 @@ a{
 }
 #searchE{
 	height:40px;
-	width:900px;
+	width:100%;
 	border:none;
 	border:border-box;
 	font-family:Amazon Ember;
@@ -111,6 +118,10 @@ a{
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
+	width:100%;
+	max-width:900px;
+	order: -1; /* Move search box to the top on mobile */
+        margin-bottom: 10px;
 }
 
 
@@ -159,6 +170,7 @@ p{
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
+	overflow-x: auto;
 }
 
 
@@ -246,19 +258,22 @@ p{
 }
 .categorys{
 	background-color:rgb(227,230,230);
-	display:flex;
+	ddisplay:flex;
 	position:relative;
 	top:-30px;
 	flex-wrap:wrap;
 	height:100%;
 	width:100%;
-
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 .subItems{
 	background-color:white;
 	height:470px;
-	width:380px;
+	width:100%;
 	display:flex;
 	flex-wrap:wrap;
 	margin:0px 0px 20px 20px;
@@ -267,6 +282,9 @@ p{
 	position:relative;
 	left:25px;
 	top:10px;
+	width: 100%; /* Instead of fixed 380px */
+    max-width: 380px; /* You can keep a max-width if needed */
+    margin: 0 auto;
 }
 
 
